@@ -110,7 +110,7 @@ export default function ProductDetail() {
               <img
                 src={product.images[0]}
                 alt={product.title}
-                className="h-full w-full object-cover object-center"
+                className="h-full w-full object-contain object-center"
               />
             </div>
             <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
@@ -118,14 +118,14 @@ export default function ProductDetail() {
                 <img
                   src={product.images[1]}
                   alt={product.title}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-contain object-center"
                 />
               </div>
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                 <img
                   src={product.images[2]}
                   alt={product.title}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-contain object-center"
                 />
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function ProductDetail() {
               <img
                 src={product.images[3]}
                 alt={product.title}
-                className="h-full w-full object-cover object-center"
+                className="h-full w-full object-contain object-center"
               />
             </div>
           </div>

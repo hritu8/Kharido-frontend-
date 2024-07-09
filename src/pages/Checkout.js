@@ -431,7 +431,7 @@ function Checkout() {
                             <img
                               src={item.product.thumbnail}
                               alt={item.product.title}
-                              className="h-full w-full object-cover object-center"
+                              className="h-full w-full object-contain object-center"
                             />
                           </div>
 
